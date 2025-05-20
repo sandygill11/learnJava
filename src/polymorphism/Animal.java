@@ -5,7 +5,7 @@ public class Animal {
 	String color;
 	int age;
 	
-	public void jump() {
+	public static void jump() {
 		System.out.println("Animal Can Jump");
 		
 	}
@@ -15,7 +15,7 @@ public class Animal {
     }
 	
 	public static void main(String[] args) {
-		//jump();
+		jump();
 	}
 	
 	
