@@ -16,14 +16,14 @@ public class Dog extends Animal {
 	}
 
 	public static void main(String[] args) {
-		//Dog myDog = new Dog();
+		// Dog myDog = new Dog();
 
-		//Animal ani = new Dog();
+		// Animal ani = new Dog();
 //	        myDog.eat();  // Inherited method
 //	        myDog.bark(); // Method of Dog class
 		// myDog.jump();
-		//myDog.jump();
-		//ani.jump();
+		// myDog.jump();
+		// ani.jump();
 	}
 }
 
