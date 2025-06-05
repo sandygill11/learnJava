@@ -11,14 +11,18 @@ public class Dog extends Animal {
 //		
 //	}
 
-	public static void bark() {
+	public void bark() {
 		System.out.println("Dog can bark");
 	}
 
 	public static void main(String[] args) {
 		// Dog myDog = new Dog();
-
-		// Animal ani = new Dog();
+		Animal anni = new Animal();
+		Animal ani = new Dog();
+		
+		
+		anni.bark();
+		ani.bark();
 //	        myDog.eat();  // Inherited method
 //	        myDog.bark(); // Method of Dog class
 		// myDog.jump();
